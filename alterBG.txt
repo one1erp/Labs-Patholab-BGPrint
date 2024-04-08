@@ -1,0 +1,6 @@
+alter table bg_print 
+add (	REPORT_TYPE	VARCHAR2(10),
+	REPORT_ID	NUMBER(16),
+	ENVELOPE_QUERY	VARCHAR2(2000))
+/
+	
